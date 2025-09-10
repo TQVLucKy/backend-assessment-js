@@ -1,0 +1,14 @@
+# Database username
+DB_USER="myuser"
+
+# Database password
+DB_PASSWORD="mypassword"
+
+# Database host (Neon project pool)
+DB_HOST="myproject-pooler.c-2.us-east-1.aws.neon.tech"
+
+# Database name
+DB_NAME="mydatabase"
+
+# Full connection string
+DATABASE_URL="postgresql://myuser:mypassword@myproject-pooler.c-2.us-east-1.aws.neon.tech/mydatabase?sslmode=require&channel_binding=require"

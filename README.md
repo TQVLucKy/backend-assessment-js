@@ -17,11 +17,17 @@
 ## Environment Variables:
 
 You need to provide environment variables for the project.  
-In this setup, values are added in `wrangler.toml`:
+In this setup, values are added in `.dev.vars`:
 
 ```toml
 DATABASE_URL="postgres://username:password@neon.db/database_name"
 ```
+
+## How to get your DATABASE_URL
+1. Go to [Neon Console](https://console.neon.tech/) and create a new project
+2. Enter your project name and click Create
+3. Once the project is created, click Connect.
+4. Copy the connection string provided, which looks like: `postgres://username:password@neon.db/database_name"`
 
 ---
 
